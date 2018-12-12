@@ -3,11 +3,8 @@ const config = require("config");
 
 const app = express();
 
+require("./startup/routes")(app);
 require("./auth/passport")();
-
-const login = require("./routes/auth");
-
-app.use("/auth", login);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {

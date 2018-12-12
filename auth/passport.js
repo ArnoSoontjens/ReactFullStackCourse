@@ -14,6 +14,7 @@ module.exports = () => {
         console.log("Access token: ", accessToken);
         console.log("Refresh token: ", refreshToken);
         console.log("Profile: ", profile);
+        done();
       }
     )
   );
