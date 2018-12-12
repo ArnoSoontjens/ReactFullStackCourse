@@ -4,5 +4,8 @@
       "clientId": "",
       "clientSecret": ""
     }
+  },
+  "Database": {
+    "host": ""
   }
 }
